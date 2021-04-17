@@ -58,8 +58,6 @@ public struct VText : View {
                         .fontWeight(.regular)
                 }
             }
-            Text("\(textIndex.count)")
-            
         }
         .onAppear{
             for i in 0 ..< text.count {
